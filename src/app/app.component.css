@@ -1,0 +1,11 @@
+.welcome{
+    transition: transform 0.5s;
+    cursor: pointer;
+    color: blue;
+    transition: all ease 0.5s;
+}
+
+.welcome:hover{
+    transform: transform(360deg);
+    color: rgb(166, 237, 79);
+}

@@ -1,0 +1,56 @@
+.main-div mat-card{
+padding: 0px;
+}
+
+.login-form{
+    padding: 20px;
+}
+mat-card{
+    margin-top: 2%;
+    margin-bottom: 55%;
+}
+
+mat-form-field{
+    border-radius: 20%;
+
+}
+
+demo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+p{
+    color: aliceblue;
+}
+
+mat-toolbar {
+    flex: 1 1 auto;
+  }
+  
+.container{
+    
+background: linear-gradient(to left, #f802f5, #1c79e2);
+height: 100vh;
+width: 100%;
+overflow: hidden;
+}
+mat-checkbox,p{
+    color: aliceblue;
+}
+
+
+.welcome{
+    transition: transform 0.5s;
+    cursor: pointer;
+    color: blue;
+    transition: all ease 0.5s;
+    margin-left: 150px;
+    flex: 1 1 auto;
+}
+
+.welcome:hover{
+    transform: transform(360deg);
+    color: rgb(166, 237, 79);
+}

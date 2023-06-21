@@ -1,0 +1,54 @@
+<div class="container">
+<mat-toolbar color="primary">
+  <mat-spinner color="warn"></mat-spinner>
+      <div class="welcome">WELCOME TO MY LOGIN PAGE</div>
+      <mat-icon>menu</mat-icon>
+      <div matBadge="4" matBadgeOverlap="false" class="demo-section">Text with a badge</div>
+ </mat-toolbar>
+   
+ 
+ <mat-slider>
+  <input matSliderThumb value="50">
+</mat-slider>
+
+<h4><p>Choose one option below:</p></h4>
+<mat-form-field>
+  <mat-label>Choose an color option</mat-label>
+<mat-select>
+    <mat-option value="option1">Blue</mat-option>
+    <mat-option value="option2">Purple</mat-option>
+    
+  </mat-select>
+</mat-form-field>
+
+    <br><br><br><br><br><br>
+  <div fxLayoutAlign="center center" fxFlexFill class="main-div">
+    <mat-card fxFlex="35">
+        <mat-toolbar color="primary">Login</mat-toolbar>
+        <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
+            <mat-form-field>
+              <mat-label>Username</mat-label>
+              <input matInput placeholder="Username" >
+            </mat-form-field>
+          
+            <mat-form-field>
+                <mat-label>password</mat-label>
+                <input matInput type="password" placeholder="password" >
+              </mat-form-field>
+              <button mat-raised-button type="submit" color="warn">Login</button>
+          </form>
+          <mat-radio-group aria-label="Select Gender">
+            <mat-radio-button value="1">Male</mat-radio-button>
+            <mat-radio-button value="2">Female</mat-radio-button>
+          </mat-radio-group>
+    </mat-card>
+    <section class="example-section">
+      <mat-checkbox class="example-margin"><p>I'm not a Robot!</p></mat-checkbox>
+      
+    </section>
+  </div>
+ 
+  
+   </div>
+
+    
