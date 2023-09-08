@@ -1,0 +1,60 @@
+<div class="container">
+    <mat-toolbar color="primary">
+     
+          <div class="welcome">REGISTER FORM</div>
+          <mat-icon>menu</mat-icon>
+          
+     </mat-toolbar>
+       
+     <form (submit)="registerSubmit()"class="form"></form>
+        
+      <div fxLayoutAlign="center center" fxFlexFill class="main-div">
+        <mat-card fxFlex="35">
+            
+            <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
+                <mat-form-field>
+                  <mat-label>Firstname</mat-label>
+                  <input matInput placeholder="firstname" >
+                </mat-form-field>
+              
+                <mat-form-field>
+                    <mat-label>Surname</mat-label>
+                    <input matInput type="surname" placeholder="surname" >
+                  </mat-form-field>
+
+                  <mat-form-field>
+                    <mat-label>Email</mat-label>
+                    <input matInput type="email" placeholder="email" >
+                  </mat-form-field>
+
+                  <mat-form-field>
+                    <mat-label>Password</mat-label>
+                    <input matInput type="password" placeholder="password" >
+                  </mat-form-field>
+
+                  <mat-form-field>
+                    <mat-label>Confirm Password</mat-label>
+                    <input matInput type="password" placeholder="password" >
+                  </mat-form-field>
+                  <mat-radio-group aria-label="Select Gender">
+                    <mat-radio-button value="1">Male</mat-radio-button>
+                    <mat-radio-button value="2">Female</mat-radio-button>
+                  </mat-radio-group>
+
+                  <button mat-raised-button type="submit" color="warn" (click)="registerSubmit()">Register</button>
+                  
+               <button type="Submit" class="Btn">Register</button>
+     
+        
+              </form>
+              
+        </mat-card>
+    
+        
+       
+      </div>
+     
+      
+       </div>
+    
+        

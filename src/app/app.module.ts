@@ -19,10 +19,17 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatBadgeModule} from '@angular/material/badge';
+import { RegisterComponent } from './register/register.component';
+import { TableComponent } from './table/table.component';
+import { Table2Component } from './table2/table2.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    ProComponent
+    ProComponent,
+    RegisterComponent,
+    TableComponent,
+    Table2Component
   ],
   imports: [
     BrowserModule,
@@ -42,7 +49,8 @@ import {MatBadgeModule} from '@angular/material/badge';
     MatProgressSpinnerModule,
     MatDatepickerModule,
     MatCheckboxModule,
-    MatBadgeModule
+    MatBadgeModule,
+    
     
     
   ],
